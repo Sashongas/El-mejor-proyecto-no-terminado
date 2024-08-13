@@ -1,140 +1,101 @@
-*{
-    padding: 0;
-    margin: 0;
-}
-body{
-    background-color: #d9ef9f;
+* {
+  padding: 0;
+  margin: 0;
 }
 
-
+body {
+  background-color: #d9ef9f;
+}
 
 /* header */
-
-header nav ul{
-    background-color: #778c43;
-    padding: 10px;
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 20px;
-    text-align: center;
-    color: white;
-
-    display: flex;
-    justify-content: space-between;
-    text-decoration: none;
-    list-style-type: none;
-
+header nav ul {
+  background-color: #778c43;
+  padding: 10px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 20px;
+  text-align: center;
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  text-decoration: none;
+  list-style-type: none;
+}
+header nav ul li a {
+  color: white;
+  padding: 10px;
+  font-size: 20px;
+  text-align: center;
+  display: flex;
+  justify-content: space-between;
+  text-decoration: none;
 }
 
-header nav ul li a{
-    color: white;
-    padding: 10px;
-    
-    font-size: 20px;
-    text-align: center;
-
-    display: flex;
-    justify-content: space-between;
-    text-decoration: none;
+/* animaciones de header */
+.menu-nav:hover,
+.foto-nav:hover,
+.contacto-nav:hover {
+  background-color: #445a14;
+  transition: 1s;
+  border-radius: 10px;
 }
 
-/* animaciones de header*/
-
-.menu-nav:hover{
-    background-color: #445a14;
-    transition: 1s;
-    border-radius: 10px;
-}
-
-.foto-nav:hover{
-    background-color: #445a14;
-    transition: 1s;
-    border-radius: 10px;
-}
-
-.contacto-nav:hover{
-    background-color: #445a14;
-    transition: 1s;
-    border-radius: 10px;
-}
-
-/*Parrafitos uwu --- ARREGLAAAAAAAR PARRAFITO */
-
-.presentacion{
-    font-family: Arial, Helvetica, sans-serif;
-    text-align: center;
-    padding: 8px;
+/* Parrafitos uwu */
+.presentacion,
+.descripcion {
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: center;
+  padding: 8px;
 }
 
 .descripcion {
-    font-family: Arial, Helvetica, sans-serif;
-    text-align: center;
-    padding: 8px;
-    font-size: 15px;
+  font-size: 15px;
 }
 
 /* grid container */
-
-.grid-container{
-    display: grid;
-    grid-template-columns: repeat(3);
-    grid-template-rows: repeat(6);
+.grid-container {
+  display: grid;
+  grid-template-columns: repeat(3);
+  grid-template-rows: repeat(6);
 }
 
-.grid-skincare-1{
-
-    grid-column: 1/2;
-    grid-row: 1/3;
-    margin: 10px;
-    
+.grid-skincare-1 {
+  grid-column: 1/2;
+  grid-row: 1/3;
+  margin: 10px;
 }
 
-.grid-manzana-2{
-    grid-column: 1/2;
-    grid-row: 3/6;
-    margin: 10px;
-    
+.grid-manzana-2 {
+  grid-column: 1/2;
+  grid-row: 3/6;
+  margin: 10px;
 }
 
-.grid-titulo-3{
-    grid-column:2/3 ;
-    margin-top: 10px;
-    font-family: Arial, Helvetica, sans-serif;
-    color: #445a14;
-    text-align: left;
+.grid-titulo-3,
+.grid-titulo-5 {
+  grid-column: 2/3;
+  margin-top: 10px;
+  font-family: Arial, Helvetica, sans-serif;
+  color: #445a14;
+  text-align: left;
 }
 
-
-.grid-titulo-5{
-    grid-column: 2/3;
-    margin-top: 10px;
-    margin-bottom: 30px;
-    font-family: Arial, Helvetica, sans-serif;
-    color: #445a14;
-    text-align: left;
+.grid-titulo-5 {
+  margin-bottom: 30px;
 }
 
-.grid-parrafo-4{
-    font-size: 15px;
-    font-family: Arial, Helvetica, sans-serif;
+.grid-parrafo-4,
+.grid-parrafo-6 {
+  font-size: 15px;
+  font-family: Arial, Helvetica, sans-serif;
 }
-
-.grid-parrafo-6{
-    font-size: 15px;
-    font-family: Arial, Helvetica, sans-serif;
-}
-
-
-
-
-
 
 /* footer */
-
-footer{
-    background-color: #778c43;
-    color: white;
-    font-family: Arial, Helvetica, sans-serif;
-    padding: 6px;
-    text-align: center;
-
+footer {
+  background-color: #778c43;
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+  padding: 6px;
+  text-align: center;
 }
+
+/*# sourceMappingURL=style.css.map */
